@@ -1,0 +1,141 @@
+body {
+    font-size: 17px;
+    font-family: 'Lato', sans-serif;
+    color: #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color : #6495ED /*#87CEFA*/
+    /*background-image : url('background/footer_lodyas/footer_lodyas.png');*/
+}
+
+.authors {
+    font-size: 16px;
+}
+
+a {
+    color: #6495ED;
+    text-decoration: none;
+}
+
+a:hover {
+   color:#000099;
+}
+a:active  {color:red;}
+
+a.todo:hover {
+    color: #AA1111;
+}
+
+p {
+    line-height: 1.25em;
+}
+
+.paper {
+    margin-bottom: 1em;
+    padding: 0px;
+}
+
+#main {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #FFFFFF;
+   /* background-image : url('background/shattered/shattered.png');*/
+    text-align: justify;
+}
+
+#contact {
+    margin-left: 0px;
+    margin-top: 12px;
+    /*margin-bottom: 60px;*/
+}
+
+#social-link {
+    margin-top: 8px;
+    /*margin-bottom: 60px;*/
+}
+
+#email {
+    margin-top: 8px;
+    font-family: Candara;
+    /*font-variant: small-caps;*/
+    font-size: 16px;
+    font-style:italic;
+}
+
+h1 {
+/*    font-variant: small-caps; */
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+    color: #4682B4;
+    font-family: Candara;
+}
+
+h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color:#4682B4;
+    border: none;
+    font-size: 1.5em;
+    font-weight: normal;
+    font-style: italic;
+}
+
+#page-head {
+    padding-bottom: 30px;
+}
+
+#photo {
+    height: 180px;
+    float: right;
+    background-color: #fff;
+}
+
+img {
+    max-width:130%; 
+    max-height:130%;
+    /*border: 1px solid;*/
+}
+
+.section-heading {
+    font-size: 1.5em;
+    margin-top: 2em;
+    margin-bottom: 20px;
+    padding-top: 0px;
+    border-bottom: solid 1px;
+}
+
+.section-heading h2 {
+    display: inline;
+    color: #4682B4;
+    font-size: 1em;
+}
+
+.title {
+    font-weight: bold;
+    color: #222;
+}
+
+.in {
+    font-style: italic;
+}
+
+.links {
+}
+
+.course {
+    margin-bottom: 0.5em;
+}
+
+p {
+    text-align: justify;
+}
+
+
