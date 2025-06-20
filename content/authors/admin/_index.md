@@ -50,7 +50,7 @@ interests:
 
 education:
   - area: PhD Machine Learning
-    institution: Telecom Paris
+    institution: Télécom Paris
     date_start: 2013-10-15
     date_end: 2016-11-19
     summary: |
@@ -63,29 +63,33 @@ education:
     date_start: 2012-09-01
     date_end: 2013-09-30
     summary: ''
+  - area: MSc Applied Mathematics
+    institution: Ecole des Ponts et Chaussées
+    date_start: 2009-08-19
+    date_end: 2013-09-30
+    summary: ''
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01
+  - position: Researcher
+    company_name: S2A, Télécom Paris
+    company_url: 'https://s2a.telecom-paris.fr/'
+    company_logo: 'https://upload.wikimedia.org/wikipedia/fr/d/d9/Logo_T%C3%A9l%C3%A9com_ParisTech.svg'
+    date_start: 2024-01-20
     date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
+    summary: ''
+  - position: Senior Research Scientist
+    company_name: Huawei France
     company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    company_logo: 'https://icon2.cleanpng.com/20180613/agv/aa7jbqey6.webp'
+    date_start: 2018-01-01
+    date_end: 2024-01-10
+    summary: ''
+  - position: Post-doctoral Researcher
+    company_name: Sierra, Inria Paris
+    company_url: ''
+    company_logo: 'https://upload.wikimedia.org/wikipedia/commons/9/95/Inr_logo_rouge.svg'
+    date_start: 2017-01-01
+    date_end: 2017-12-31
+    summary: ''
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -163,4 +167,4 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a machine learning researcher in S2A team at Télécom Paris. Previously, I was a research in Noah's Ark research team at Huawei. During 2017, I was a postdoctoral researcher at INRIA, SIERRA under the supervision of Alexandre d'Aspremont. From 2013 to 2016, I was a PhD student, co-advised by Stephan Clémençon and Joseph Salmon. In 2013, I graduated the Master MVA (machine learning and computer vision) at ENS Cachan and obtained the engineering degree of École des Ponts ParisTech. 
