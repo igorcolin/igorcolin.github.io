@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: Igor Colin
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Igor
+last_name: Colin
 
 # Status emoji
 status:
@@ -20,69 +20,57 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Researcher
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: S2A, Telecom Paris
+    url: https://s2a.telecom-paris.fr/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:igor.colin@telecom-paris.fr'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/igorcolin
   - icon: brands/linkedin
     url: https://www.linkedin.com/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://scholar.google.com/citations?user=tZj_mv8AAAAJ
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+
+    Large-scale machine learning
+    Distributed/decentralized methods
+    Graphs
+    Statistical learning theory
+    Non-convex optimization
+    Bandits
+
+  - Large-scale Machine Learning
+  - Distributed and Decentralized Methods
+  - Graphs
+  - Statistical Learning Theory
+  - Convex/Non-Convex Optimization
+  - Bandits
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: PhD Machine Learning
+    institution: Telecom Paris
+    date_start: 2013-10-15
+    date_end: 2016-11-19
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+      Thesis on _Adapting Machine Learning Algorithms to U-Statistics_. Supervised by [Stephan Clémençon](https://www.telecom-paris.fr/stephan-clemencon) and [Joseph Salmon](https://josephsalmon.eu).
     button:
       text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      url: 'https://pastel.hal.science/tel-01701636/file/thesis_colin.pdf'
+  - area: MRes Machine Learning and Computer Vision
+    institution: Ecole Normale Superieure Cachan
+    date_start: 2012-09-01
+    date_end: 2013-09-30
+    summary: ''
 work:
   - position: Director of Cloud Infrastructure
     company_name: GenCoin
