@@ -41,14 +41,6 @@ profiles:
     url: https://scholar.google.com/citations?user=tZj_mv8AAAAJ
 
 interests:
-
-    Large-scale machine learning
-    Distributed/decentralized methods
-    Graphs
-    Statistical learning theory
-    Non-convex optimization
-    Bandits
-
   - Large-scale Machine Learning
   - Distributed and Decentralized Methods
   - Graphs
