@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: Igor Colin
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Igor
+last_name: Colin
 
 # Status emoji
 status:
@@ -20,36 +20,31 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Researcher
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: S2A Télécom Paris
+    url: https://s2a.telecom-paris.fr/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:igor.colin@telecom-paris.fr'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/igorcolin
   - icon: brands/linkedin
     url: https://www.linkedin.com/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://scholar.google.com/citations?user=tZj_mv8AAAAJ
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Decentralized Learning
+  - Bandits
+  - Convex/Non-Convex Optimization
+  - Graphs
 
 education:
   - area: PhD Artificial Intelligence
