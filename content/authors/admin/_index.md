@@ -61,40 +61,26 @@ education:
     date_start: 2012-09-01
     date_end: 2013-09-30
     summary: ''
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - area: MSc Applied Maths and Computer Science
+    institution: École des Ponts ParisTech
+    date_start: 2009-08-19
+    date_end: 2013-09-30
+    summary: ''
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
+  - position: Research Engineer
+    company_name: S2A, Télécom Paris
+    company_url: 'https://s2a.telecom-paris.fr/'
     company_logo: ''
-    date_start: 2021-01-01
+    date_start: 2024-01-22
     date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
+    summary: ''
+  - position: Senior Research Scientist
+    company_name: Noah's Ark, Huawei France
     company_url: ''
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    date_start: 2018-01-01
+    date_end: 2024-01-19
+    summary: ''
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -131,11 +117,13 @@ skills:
         icon: camera
 
 languages:
-  - name: English
+  - name: French
     percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
+  - name: English
+    percent: 90
+  - name: Spanish
+    percent: 50
+  - name: Klingon
     percent: 25
 
 # Awards.
