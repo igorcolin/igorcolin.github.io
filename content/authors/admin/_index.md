@@ -75,7 +75,7 @@ work:
     date_end: ''
     summary: ''
   - position: Senior Research Scientist
-    company_name: Noah\'s Ark, Huawei France
+    company_name: Huawei France
     company_url: ''
     company_logo: ''
     date_start: 2018-01-01
