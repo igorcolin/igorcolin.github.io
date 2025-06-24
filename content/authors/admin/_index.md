@@ -81,6 +81,13 @@ work:
     date_start: 2018-01-01
     date_end: 2024-01-19
     summary: ''
+  - position: Post-doctoral Researcher
+    company_name: SIERRA, Inria
+    company_url: ''
+    company_logo: ''
+    date_start: 2017-01-01
+    date_end: 2017-12-31
+    summary: ''
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
