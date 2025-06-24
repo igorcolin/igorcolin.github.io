@@ -47,19 +47,19 @@ interests:
   - Graphs
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: PhD Machine Learniing
+    institution: LTCI, Télécom ParisTech
+    date_start: 2013-10-15
+    date_end: 2016-11-19
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+      Thesis on _Adapting Machine Learning Methods to U-statistics_. Supervised by [Stephan Clémençon](https://www.telecom-paris.fr/stephan-clemencon) and [Joseph Salmon](https://josephsalmon.eu).
     button:
       text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      url: 'https://pastel.hal.science/tel-01701636/file/thesis_colin.pdf'
+  - area: MRes Machine Learning and Computer Vision
+    institution: École Normale Supérieure, Cachan
+    date_start: 2012-09-01
+    date_end: 2013-09-30
     summary: |
       GPA: 3.8/4.0
 
