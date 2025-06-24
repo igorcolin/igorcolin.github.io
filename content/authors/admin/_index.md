@@ -178,4 +178,4 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a machine learning researcher in S2A team at Télécom Paris. Previously, I was a research in Noah's Ark research team at Huawei. During 2017, I was a postdoctoral researcher at INRIA, SIERRA under the supervision of Alexandre d'Aspremont. From 2013 to 2016, I was a Ph.D. student, co-advised by Stephan Clémençon and Joseph Salmon. In 2013, I graduated the Master MVA (machine learning and computer vision) at ENS Cachan and obtained the engineering degree of École des Ponts ParisTech.
