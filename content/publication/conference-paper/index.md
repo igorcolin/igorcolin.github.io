@@ -1,23 +1,22 @@
 ---
-title: 'An example conference paper'
+title: 'Adaptive Sample Sharing for Multi Agent Linear Bandits'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
+  - Hamza Cherkaoui
   - admin
-  - Robert Ford
+  - Merwan Barlier
 
 # Author notes (optional)
 author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
 
-date: '2013-07-01T00:00:00Z'
+date: ''
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2017-01-01T00:00:00Z'
+publishDate: '2025-07-13T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -25,16 +24,17 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Hugo Blox Builder Conference*
-publication_short: In *ICW*
+publication: In *International Conference on Machine Learning*
+publication_short: In *ICML*
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract:  The multi-agent linear bandit setting is a well-known setting for which designing efficient collaboration between agents remains challenging. This paper studies the impact of data sharing among agents on regret minimization. Unlike most existing approaches, our contribution does not rely on any assumptions on the bandit parameters structure. Our main result formalizes the trade-off between the bias and uncertainty of the bandit parameter estimation for efficient collaboration. This result is the cornerstone of the Bandit Adaptive Sample Sharing (BASS) algorithm, whose efficiency over the current state-of-the-art is validated through both theoretical analysis and empirical evaluations on both synthetic and real-world datasets. Furthermore, we demonstrate that, when agents' parameters display a cluster structure, our algorithm accurately recovers them.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: ''
 
 tags:
-  - Large Language Models
+  - Linear Bandits
+  - Multi-objective collaboration
 
 # Display this page in the Featured widget?
 featured: true
@@ -44,19 +44,19 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_dataset: 'https://github.com/HugoBlox/hugo-blox-builder'
+url_pdf: 'https://arxiv.org/pdf/2309.08710'
+url_code: ''
+url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_video: 'https://youtube.com'
+url_source: ''
+url_video: 'https://icml.cc/virtual/2025/poster/43940'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: ''
   focal_point: ''
   preview_only: false
 
