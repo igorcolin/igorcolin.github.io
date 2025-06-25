@@ -7,7 +7,7 @@ authors:
 - Igor Colin
 - Haitham Bou Ammar
 - Tom Diethe
-date: -01-01
+date: 2024-01-01
 publishDate: '2025-06-25T12:49:17.469587Z'
 publication_types:
 - paper-conference
