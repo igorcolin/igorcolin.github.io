@@ -23,6 +23,7 @@ sections:
         - **TP0 : Prise en main Python** (optionnel) : Python, NumPy, Matplotlib,
           pandas et un premier modèle scikit-learn de bout en bout.
           [Télécharger le notebook](/teaching/formation-ml/tp0_intro_python_etudiant.ipynb)
+          · [corrigé](/teaching/formation-ml/tp0_intro_python_corrige.ipynb)
         - **TP1 : Apprentissage supervisé** : kNN, régression linéaire, perceptron
           codé à la main, LDA/QDA vs régression logistique, évaluation (ROC/AUC),
           pipeline sur tabulaire / images / texte.
