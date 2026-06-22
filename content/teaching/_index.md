@@ -27,7 +27,6 @@ sections:
           codé à la main, LDA/QDA vs régression logistique, évaluation (ROC/AUC),
           pipeline sur tabulaire / images / texte.
           [Télécharger l'archive](/teaching/formation-ml/tp1_apprentissage_supervise.zip)
-          (notebook + le fichier `messages_fr.csv` à dézipper dans le même dossier)
         - **TP2 : Apprentissage non supervisé** : K-means et compression d'image,
           PCA, puis modules à la carte (détection d'anomalies, NMF, réseaux de
           neurones, clustering spectral).
