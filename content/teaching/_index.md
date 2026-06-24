@@ -28,10 +28,12 @@ sections:
           codé à la main, LDA/QDA vs régression logistique, évaluation (ROC/AUC),
           pipeline sur tabulaire / images / texte.
           [Télécharger l'archive](/teaching/formation-ml/tp1_apprentissage_supervise.zip)
+          · [corrigé](/teaching/formation-ml/tp1_apprentissage_supervise_corrige.ipynb)
         - **TP2 : Apprentissage non supervisé** : K-means et compression d'image,
           PCA, puis modules à la carte (détection d'anomalies, NMF, réseaux de
           neurones, clustering spectral).
           [Télécharger le notebook](/teaching/formation-ml/tp2_non_supervise_etudiant.ipynb)
+          · [corrigé](/teaching/formation-ml/tp2_non_supervise_corrige.ipynb)
 
         Environnement : `numpy`, `scikit-learn`, `matplotlib`, `pandas`, et `torch`
         pour le TP2. Tout tourne hors ligne sur CPU.
