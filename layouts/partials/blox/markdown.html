@@ -1,0 +1,20 @@
+{{/* Site override of the Hugo Blox markdown block: the theme caps the text at
+     `max-w-prose` (65 characters), which looks like a mobile layout on a desktop
+     screen. This version uses the same width as the publication lists. */}}
+
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $title := $block.content.title | emojify | $page.RenderString }}
+{{ $text := $block.content.text | emojify | $page.RenderString | safeHTML }}
+
+<div class="flex flex-col max-w-screen-lg mx-auto gap-3 justify-center px-6">
+
+  {{ with $title }}
+  <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white text-center">
+    {{ . }}
+  </div>
+  {{ end }}
+
+  {{/* We use DIV rather than P to support `prose` class and multiple paragraphs */}}
+  {{ with $text }}<div class="prose prose-slate lg:prose-xl dark:prose-invert max-w-none w-full">{{ . }}</div>{{ end }}
+</div>
