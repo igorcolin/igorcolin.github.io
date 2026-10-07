@@ -1,7 +1,9 @@
-{{- /* Markdown link render hook: open external links in a new tab, and force
-       download for links pointing at downloadable file assets. */ -}}
+{{- /* Markdown link render hook: open external links and viewable files (PDF)
+       in a new tab, and force download for the other file assets. */ -}}
 {{- $dl := slice ".ipynb" ".zip" ".csv" ".tar" ".gz" -}}
-{{- $ext := path.Ext .Destination -}}
+{{- $view := slice ".pdf" -}}
+{{- $ext := path.Ext .Destination | lower -}}
 {{- $isExternal := strings.HasPrefix .Destination "http" -}}
 {{- $forceDownload := and (not $isExternal) (in $dl $ext) -}}
-<a href="{{ .Destination | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if $isExternal }} target="_blank" rel="noopener"{{ end }}{{ if $forceDownload }} download{{ end }}>{{ .Text | safeHTML }}</a>
+{{- $newTab := or $isExternal (in $view $ext) -}}
+<a href="{{ .Destination | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if $newTab }} target="_blank" rel="noopener"{{ end }}{{ if $forceDownload }} download{{ end }}>{{ .Text | safeHTML }}</a>
