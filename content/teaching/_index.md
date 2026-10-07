@@ -13,6 +13,17 @@ sections:
   - block: markdown
     content:
       text: |-
+        ## Sequential Decision
+
+        ESIEE Paris, 5th year, 2026-2027. Bandits, reinforcement learning and learning
+        from preferences: slides, tutorial sheets and lab notebooks.
+        [Course page](/teaching/sequential-decision/)
+    design:
+      columns: '1'
+
+  - block: markdown
+    content:
+      text: |-
         ## Formation Machine Learning
 
         **Travaux pratiques (notebooks Jupyter).**
