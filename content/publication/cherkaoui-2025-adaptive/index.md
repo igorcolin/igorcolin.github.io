@@ -6,8 +6,8 @@ title: 'Adaptive Sample Sharing for Multi Agent Linear Bandits'
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - Hamza Cherkaoui
-  - admin
   - Merwan Barlier
+  - admin
 
 # Author notes (optional)
 author_notes:

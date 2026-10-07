@@ -1,5 +1,5 @@
 ---
-title: An approximate shapley-folkman theorem
+title: An Approximate Shapley-Folkman Theorem
 authors:
 - Thomas Kerdreux
 - Igor Colin
