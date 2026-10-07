@@ -1,5 +1,5 @@
 ---
-title: 'Scaling-up empirical risk minimization: optimization of incomplete $ U $-statistics'
+title: 'Scaling-up empirical risk minimization: optimization of incomplete U-statistics'
 authors:
 - Stephan Clémençon
 - Igor Colin
