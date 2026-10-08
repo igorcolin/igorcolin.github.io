@@ -22,8 +22,8 @@ sections:
 
         | Session | Topic | Materials |
         |---|---|---|
-        | 1 | The K-armed bandit: regret, Hoeffding's inequality, greedy, epsilon-greedy, explore-then-commit | [slides](/teaching/sequential-decision/lecture01.pdf) · [handout](/teaching/sequential-decision/lecture01-handout.pdf) · [tutorial sheet](/teaching/sequential-decision/tutorial01.pdf) |
-        | 2 | Optimism: UCB | [tutorial sheet](/teaching/sequential-decision/tutorial02.pdf) |
+        | 1 | The K-armed bandit: regret, Hoeffding's inequality, greedy, epsilon-greedy, explore-then-commit | [slides](/teaching/sequential-decision/lecture01.pdf) · [handout](/teaching/sequential-decision/lecture01-handout.pdf) · [tutorial sheet](/teaching/sequential-decision/tutorial01.pdf) · [lab folder](/teaching/sequential-decision/sequential-decision-labs.zip) |
+        | 2 | Optimism: UCB | [slides](/teaching/sequential-decision/lecture02.pdf) · [handout](/teaching/sequential-decision/lecture02-handout.pdf) · [tutorial sheet](/teaching/sequential-decision/tutorial02.pdf) · [lab folder](/teaching/sequential-decision/sequential-decision-labs.zip) |
         | 3 | Thompson sampling and linear bandits | |
         | 4 | Pure exploration, experimental design and Gaussian processes | |
         | 5 | Exponential weights and off-policy evaluation | |
