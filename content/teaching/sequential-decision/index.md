@@ -24,7 +24,7 @@ sections:
         |---|---|---|
         | 1 | The K-armed bandit: regret, Hoeffding's inequality, greedy, epsilon-greedy, explore-then-commit | [slides](/teaching/sequential-decision/lecture01.pdf) · [handout](/teaching/sequential-decision/lecture01-handout.pdf) · [tutorial sheet](/teaching/sequential-decision/tutorial01.pdf) · [lab folder](/teaching/sequential-decision/sequential-decision-labs.zip) |
         | 2 | Optimism: UCB | [slides](/teaching/sequential-decision/lecture02.pdf) · [handout](/teaching/sequential-decision/lecture02-handout.pdf) · [tutorial sheet](/teaching/sequential-decision/tutorial02.pdf) · [lab folder](/teaching/sequential-decision/sequential-decision-labs.zip) |
-        | 3 | Thompson sampling and linear bandits | |
+        | 3 | Thompson sampling and linear bandits | [slides](/teaching/sequential-decision/lecture03.pdf) · [handout](/teaching/sequential-decision/lecture03-handout.pdf) · [tutorial sheet](/teaching/sequential-decision/tutorial03.pdf) · [lab folder](/teaching/sequential-decision/sequential-decision-labs.zip) |
         | 4 | Pure exploration, experimental design and Gaussian processes | |
         | 5 | Exponential weights and off-policy evaluation | |
         | 6 | Learning from preferences | |
@@ -46,10 +46,28 @@ sections:
         - `SETUP.pdf`: installation page, to read first;
         - `lab01-02.ipynb`: Labs 1 and 2 (naive strategies and UCB), and `lab00.ipynb`,
           an optional warm-up on Python, numpy and matplotlib;
+        - `lab03.ipynb`: Lab 3 (Thompson sampling and linear bandits);
         - a `-colab` version of each notebook, which runs on Google Colab without
           installation;
         - `seqlearn/`, the Python package used in the labs, `environment.yml` and
           `check_install.py`.
+
+        ### Updating the environment for Lab 3
+
+        Lab 3 needs a new version of `seqlearn` and the package `ipywidgets`. If you
+        installed the course environment before Lab 3:
+
+        1. Download the lab folder again and unzip it. Copy `lab03.ipynb` and the whole
+           `seqlearn/` folder into your course folder, replacing the old `seqlearn/`. Your
+           own notebooks are not modified.
+        2. Install `ipywidgets` in the course environment:
+           - with Miniforge (option A of `SETUP.pdf`):
+             `conda install -n esiee-sequential -c conda-forge ipywidgets`
+           - with a virtual environment (option B): activate `.venv` as in `SETUP.pdf`,
+             then run `pip install ipywidgets`
+        3. Restart Jupyter from the course folder.
+
+        On Google Colab, nothing needs to be done: use `lab03-colab.ipynb`.
 
         ## References
 
