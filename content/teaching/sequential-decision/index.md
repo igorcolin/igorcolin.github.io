@@ -22,10 +22,10 @@ sections:
 
         | Session | Topic | Materials |
         |---|---|---|
-        | 1 | The K-armed bandit: regret, Hoeffding's inequality, greedy, epsilon-greedy, explore-then-commit | [slides](/teaching/sequential-decision/lecture01.pdf) · [handout](/teaching/sequential-decision/lecture01-handout.pdf) · [tutorial sheet](/teaching/sequential-decision/tutorial01.pdf) · [lab folder](/teaching/sequential-decision/sequential-decision-labs.zip) |
-        | 2 | Optimism: UCB | [slides](/teaching/sequential-decision/lecture02.pdf) · [handout](/teaching/sequential-decision/lecture02-handout.pdf) · [tutorial sheet](/teaching/sequential-decision/tutorial02.pdf) · [lab folder](/teaching/sequential-decision/sequential-decision-labs.zip) |
-        | 3 | Thompson sampling and linear bandits | [slides](/teaching/sequential-decision/lecture03.pdf) · [handout](/teaching/sequential-decision/lecture03-handout.pdf) · [tutorial sheet](/teaching/sequential-decision/tutorial03.pdf) · [lab folder](/teaching/sequential-decision/sequential-decision-labs.zip) |
-        | 4 | Recap of session 3, Lab 3 and a bandit challenge (Lab 4) | |
+        | 1 | The K-armed bandit: regret, Hoeffding's inequality, greedy, epsilon-greedy, explore-then-commit | [slides](/teaching/sequential-decision/lecture01.pdf) · [handout](/teaching/sequential-decision/lecture01-handout.pdf) · [tutorial sheet](/teaching/sequential-decision/tutorial01.pdf) · [warm-up notebook](/teaching/sequential-decision/lab00.ipynb) ([Colab](/teaching/sequential-decision/lab00-colab.ipynb)) |
+        | 2 | Optimism: UCB | [slides](/teaching/sequential-decision/lecture02.pdf) · [handout](/teaching/sequential-decision/lecture02-handout.pdf) · [tutorial sheet](/teaching/sequential-decision/tutorial02.pdf) · [Labs 1 and 2 notebook](/teaching/sequential-decision/lab01-02.ipynb) ([Colab](/teaching/sequential-decision/lab01-02-colab.ipynb)) |
+        | 3 | Thompson sampling and linear bandits | [slides](/teaching/sequential-decision/lecture03.pdf) · [handout](/teaching/sequential-decision/lecture03-handout.pdf) · [tutorial sheet](/teaching/sequential-decision/tutorial03.pdf) · [Lab 3 notebook](/teaching/sequential-decision/lab03.ipynb) ([Colab](/teaching/sequential-decision/lab03-colab.ipynb)) |
+        | 4 | Recap of session 3, Lab 3 and a bandit challenge (Lab 4) | [Lab 4 notebook](/teaching/sequential-decision/lab04.ipynb) ([Colab](/teaching/sequential-decision/lab04-colab.ipynb)) |
         | 5 | Exponential weights and off-policy evaluation | |
         | 6 | Learning from preferences | |
         | 7 | Markov decision processes and Q-learning | |
@@ -33,44 +33,41 @@ sections:
         | 9 | Preferences and RLHF | |
         | 10 | Projects | |
 
-        The materials of each session are added after the session.
+        The slides and tutorial sheets of each session are added after the session, the
+        lab notebooks on the day of the session.
 
         ## Labs
 
         The labs are Jupyter notebooks in Python. They run on a laptop CPU, or online
         with Google Colab.
 
-        [Download the lab folder](/teaching/sequential-decision/sequential-decision-labs.zip)
-        (zip archive). It contains:
+        To run them on your laptop, download the
+        [setup archive](/teaching/sequential-decision/sequential-decision-setup.zip) once and
+        unzip it. It contains `SETUP.pdf` (installation page, to read first), `seqlearn/`
+        (the Python package used in the labs), `environment.yml` and `check_install.py`.
+        Then download the notebook of each lab from the line of its session above, and save
+        it in the same folder, next to `seqlearn/`.
 
-        - `SETUP.pdf`: installation page, to read first;
-        - `lab01-02.ipynb`: Labs 1 and 2 (naive strategies and UCB), and `lab00.ipynb`,
-          an optional warm-up on Python, numpy and matplotlib;
-        - `lab03.ipynb`: Lab 3 (Thompson sampling and linear bandits);
-        - `lab04.ipynb`: Lab 4 (bandit challenge);
-        - a `-colab` version of each notebook, which runs on Google Colab without
-          installation;
-        - `seqlearn/`, the Python package used in the labs, `environment.yml` and
-          `check_install.py`.
+        On Google Colab, nothing needs to be installed: upload the Colab version of the
+        notebook (File > Upload notebook), and run the cells of its section "Framework"
+        first.
 
-        ### Updating the lab folder
+        ### Updating `seqlearn`
 
-        Each new lab needs the current version of `seqlearn`, and Lab 3 also needs the
-        package `ipywidgets`. If you installed the course environment before Lab 3 or
-        Lab 4:
+        Some labs need a new version of `seqlearn`: Lab 3 and Lab 4 do. If a notebook stops with
+        a `ModuleNotFoundError` on a part of `seqlearn` (for instance `seqlearn.challenge`),
+        download the setup archive again and replace your `seqlearn/` folder with the new one. Your own notebooks are
+        not modified.
 
-        1. Download the lab folder again and unzip it. Copy the new notebooks
-           (`lab03.ipynb`, `lab04.ipynb`) and the whole `seqlearn/` folder into your
-           course folder, replacing the old `seqlearn/`. Your own notebooks are not
-           modified.
-        2. If you installed before Lab 3, install `ipywidgets` in the course environment:
-           - with Miniforge (option A of `SETUP.pdf`):
-             `conda install -n esiee-sequential -c conda-forge ipywidgets`
-           - with a virtual environment (option B): activate `.venv` as in `SETUP.pdf`,
-             then run `pip install ipywidgets`
-        3. Restart Jupyter from the course folder.
+        Lab 3 also needs the package `ipywidgets`. If you installed the course environment
+        before Lab 3, install it:
 
-        On Google Colab, nothing needs to be done: use the `-colab` notebooks.
+        - with Miniforge (option A of `SETUP.pdf`):
+          `conda install -n esiee-sequential -c conda-forge ipywidgets`
+        - with a virtual environment (option B): activate `.venv` as in `SETUP.pdf`, then
+          run `pip install ipywidgets`
+
+        Then restart Jupyter from the course folder.
 
         ## References
 
