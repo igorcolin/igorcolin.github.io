@@ -25,7 +25,7 @@ sections:
         | 1 | The K-armed bandit: regret, Hoeffding's inequality, greedy, epsilon-greedy, explore-then-commit | [slides](/teaching/sequential-decision/lecture01.pdf) · [handout](/teaching/sequential-decision/lecture01-handout.pdf) · [tutorial sheet](/teaching/sequential-decision/tutorial01.pdf) · [warm-up notebook](/teaching/sequential-decision/lab00.ipynb) ([Colab](/teaching/sequential-decision/lab00-colab.ipynb)) |
         | 2 | Optimism: UCB | [slides](/teaching/sequential-decision/lecture02.pdf) · [handout](/teaching/sequential-decision/lecture02-handout.pdf) · [tutorial sheet](/teaching/sequential-decision/tutorial02.pdf) · [Labs 1 and 2 notebook](/teaching/sequential-decision/lab01-02.ipynb) ([Colab](/teaching/sequential-decision/lab01-02-colab.ipynb)) |
         | 3 | Thompson sampling and linear bandits | [slides](/teaching/sequential-decision/lecture03.pdf) · [handout](/teaching/sequential-decision/lecture03-handout.pdf) · [tutorial sheet](/teaching/sequential-decision/tutorial03.pdf) · [Lab 3 notebook](/teaching/sequential-decision/lab03.ipynb) ([Colab](/teaching/sequential-decision/lab03-colab.ipynb)) |
-        | 4 | Recap of session 3, Lab 3 and a bandit challenge (Lab 4) | [Lab 4 notebook](/teaching/sequential-decision/lab04.ipynb) ([Colab](/teaching/sequential-decision/lab04-colab.ipynb)) |
+        | 4 | Recap of session 3, Lab 3 and a bandit challenge (Lab 4) | [slides](/teaching/sequential-decision/lecture04.pdf) · [handout](/teaching/sequential-decision/lecture04-handout.pdf) · [Lab 4 notebook](/teaching/sequential-decision/lab04.ipynb) ([Colab](/teaching/sequential-decision/lab04-colab.ipynb)) |
         | 5 | Exponential weights and off-policy evaluation | |
         | 6 | Learning from preferences | |
         | 7 | Markov decision processes and Q-learning | |
@@ -54,7 +54,7 @@ sections:
 
         ### Updating `seqlearn`
 
-        Some labs need a new version of `seqlearn`: Lab 3 and Lab 4 do. If a notebook stops with
+        Most labs need a new version of `seqlearn`. If a notebook stops with
         a `ModuleNotFoundError` on a part of `seqlearn` (for instance `seqlearn.challenge`),
         download the setup archive again and replace your `seqlearn/` folder with the new one. Your own notebooks are
         not modified.
