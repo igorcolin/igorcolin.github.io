@@ -27,7 +27,7 @@ sections:
         | 3 | Thompson sampling and linear bandits | [slides](/teaching/sequential-decision/lecture03.pdf) · [handout](/teaching/sequential-decision/lecture03-handout.pdf) · [tutorial sheet](/teaching/sequential-decision/tutorial03.pdf) · [Lab 3 notebook](/teaching/sequential-decision/lab03.ipynb) ([Colab](/teaching/sequential-decision/lab03-colab.ipynb)) |
         | 4 | Recap of session 3, Lab 3 and a bandit challenge (Lab 4) | [slides](/teaching/sequential-decision/lecture04.pdf) · [handout](/teaching/sequential-decision/lecture04-handout.pdf) · [Lab 4 notebook](/teaching/sequential-decision/lab04.ipynb) ([Colab](/teaching/sequential-decision/lab04-colab.ipynb)) |
         | 5 | Contextual bandits, exponential weights and off-policy evaluation | [slides](/teaching/sequential-decision/lecture05.pdf) · [handout](/teaching/sequential-decision/lecture05-handout.pdf) · [tutorial sheet](/teaching/sequential-decision/tutorial05.pdf) · [Lab 5 notebook](/teaching/sequential-decision/lab05.ipynb) ([Colab](/teaching/sequential-decision/lab05-colab.ipynb)) |
-        | 6 | Learning from preferences | |
+        | 6 | Pure exploration and learning from preferences | [slides](/teaching/sequential-decision/lecture06.pdf) · [handout](/teaching/sequential-decision/lecture06-handout.pdf) · [tutorial sheet](/teaching/sequential-decision/tutorial06.pdf) · [Lab 6 notebook](/teaching/sequential-decision/lab06.ipynb) ([Colab](/teaching/sequential-decision/lab06-colab.ipynb)) |
         | 7 | Markov decision processes and Q-learning | |
         | 8 | Policy gradient | |
         | 9 | Preferences and RLHF | |
