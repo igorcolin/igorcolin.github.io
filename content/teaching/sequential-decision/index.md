@@ -28,10 +28,10 @@ sections:
         | 4 | Recap of session 3, Lab 3 and a bandit challenge (Lab 4) | [slides](/teaching/sequential-decision/lecture04.pdf) · [handout](/teaching/sequential-decision/lecture04-handout.pdf) · [Lab 4 notebook](/teaching/sequential-decision/lab04.ipynb) ([Colab](/teaching/sequential-decision/lab04-colab.ipynb)) |
         | 5 | Contextual bandits, exponential weights and off-policy evaluation | [slides](/teaching/sequential-decision/lecture05.pdf) · [handout](/teaching/sequential-decision/lecture05-handout.pdf) · [tutorial sheet](/teaching/sequential-decision/tutorial05.pdf) · [Lab 5 notebook](/teaching/sequential-decision/lab05.ipynb) ([Colab](/teaching/sequential-decision/lab05-colab.ipynb)) |
         | 6 | Pure exploration and learning from preferences | [slides](/teaching/sequential-decision/lecture06.pdf) · [handout](/teaching/sequential-decision/lecture06-handout.pdf) · [tutorial sheet](/teaching/sequential-decision/tutorial06.pdf) · [Lab 6 notebook](/teaching/sequential-decision/lab06.ipynb) ([Colab](/teaching/sequential-decision/lab06-colab.ipynb)) |
-        | 7 | Markov decision processes and Q-learning | |
+        | 7 | Markov decision processes and Q-learning; presentation of the projects | [slides](/teaching/sequential-decision/lecture07.pdf) · [handout](/teaching/sequential-decision/lecture07-handout.pdf) · [tutorial sheet](/teaching/sequential-decision/tutorial07.pdf) · [Lab 7 notebook](/teaching/sequential-decision/lab07.ipynb) ([Colab](/teaching/sequential-decision/lab07-colab.ipynb)) · [projects](#projects) |
         | 8 | Policy gradient | |
         | 9 | Preferences and RLHF | |
-        | 10 | Projects | |
+        | 10 | Project defenses | |
 
         The slides and tutorial sheets of each session are added after the session, the
         lab notebooks on the day of the session.
@@ -68,6 +68,22 @@ sections:
           run `pip install ipywidgets`
 
         Then restart Jupyter from the course folder.
+
+        ## Projects
+
+        The project is done in pairs, on one of the five topics below. The
+        [subject](/teaching/sequential-decision/projects.pdf) describes the topics, what is expected and the calendar.
+        Each topic has a starter notebook, to save next to `seqlearn/` (download the setup
+        archive again first: it contains the simulators of the projects, in
+        `seqlearn/projects/`).
+
+        | Topic | | Starter notebook |
+        |---|---|---|
+        | 1 | Recommendation under drift | [notebook](/teaching/sequential-decision/project1-drift.ipynb) ([Colab](/teaching/sequential-decision/project1-drift-colab.ipynb)) |
+        | 2 | Bayesian optimization | [notebook](/teaching/sequential-decision/project2-bayesopt.ipynb) ([Colab](/teaching/sequential-decision/project2-bayesopt-colab.ipynb)) |
+        | 3 | Exploration in reinforcement learning | [notebook](/teaching/sequential-decision/project3-explore.ipynb) ([Colab](/teaching/sequential-decision/project3-explore-colab.ipynb)) |
+        | 4 | Model arena | [notebook](/teaching/sequential-decision/project4-arena.ipynb) ([Colab](/teaching/sequential-decision/project4-arena-colab.ipynb)) |
+        | 5 | Rating the players of a team game | [notebook](/teaching/sequential-decision/project5-league.ipynb) ([Colab](/teaching/sequential-decision/project5-league-colab.ipynb)) |
 
         ## References
 
