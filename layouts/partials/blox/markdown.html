@@ -1,13 +1,30 @@
 {{/* Site override of the Hugo Blox markdown block: the theme caps the text at
      `max-w-prose` (65 characters), which looks like a mobile layout on a desktop
-     screen. This version uses the same width as the publication lists. */}}
+     screen. This version uses the same width as the publication lists.
+
+     With `design: toc: true`, the block also gets a navigation menu built from its
+     `##` and `###` headings: a sticky column on the left on wide screens, a sticky
+     bar of links at the top on small ones. The current section is highlighted, and
+     headings get a copyable anchor. See `static/js/page-toc.js`. */}}
 
 {{ $page := .wcPage }}
 {{ $block := .wcBlock }}
 {{ $title := $block.content.title | emojify | $page.RenderString }}
 {{ $text := $block.content.text | emojify | $page.RenderString | safeHTML }}
+{{ $toc := $block.design.toc | default false }}
 
+{{ if $toc }}
+<link rel="stylesheet" href="{{ "css/page-toc.css" | relURL }}">
+<div class="page-toc-layout max-w-screen-xl mx-auto px-6">
+  <nav class="page-toc" aria-label="On this page">
+    <div class="page-toc-title">On this page</div>
+    <ul></ul>
+    <a class="page-toc-top" href="#">Back to top</a>
+  </nav>
+  <div class="page-toc-main flex flex-col gap-3">
+{{ else }}
 <div class="flex flex-col max-w-screen-lg mx-auto gap-3 justify-center px-6">
+{{ end }}
 
   {{ with $title }}
   <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white text-center">
@@ -16,5 +33,12 @@
   {{ end }}
 
   {{/* We use DIV rather than P to support `prose` class and multiple paragraphs */}}
-  {{ with $text }}<div class="prose prose-slate lg:prose-xl dark:prose-invert max-w-none w-full">{{ . }}</div>{{ end }}
+  {{ with $text }}<div class="prose prose-slate lg:prose-xl dark:prose-invert max-w-none w-full{{ if $toc }} page-toc-content{{ end }}">{{ . }}</div>{{ end }}
+
+{{ if $toc }}
+  </div>
 </div>
+<script src="{{ "js/page-toc.js" | relURL }}" defer></script>
+{{ else }}
+</div>
+{{ end }}
