@@ -30,7 +30,7 @@ sections:
           (current `seqlearn`: version 2026.11.03), [instructions](#setup).
         - **Assessment:** project and written exam; details to come.
         - **Contact:** [igor.colin@esiee.fr](mailto:igor.colin@esiee.fr).
-        - **Latest updates:** 25 Nov, Tutorial 8, Lab 8 and a new version of `seqlearn` (download the
+        - **Latest updates:** 25 Nov, slides and Tutorial 8, Lab 8 and a new version of `seqlearn` (download the
           setup archive again), revised slides of session 7; 30 Oct, the project notebooks
           check the version of `seqlearn` in their first cell; 29 Oct, materials of session 7
           and the projects.
@@ -48,7 +48,7 @@ sections:
         | 5 | <time datetime="2026-10-27T13:00">Tue 27 Oct, 13:00</time> | PER 5401 | Contextual bandits, exponential weights and off-policy evaluation | [pdf](/teaching/sequential-decision/lecture05.pdf) | [pdf](/teaching/sequential-decision/lecture05-handout.pdf) | [pdf](/teaching/sequential-decision/tutorial05.pdf) | [ipynb](/teaching/sequential-decision/lab05.ipynb) · [Colab](/teaching/sequential-decision/lab05-colab.ipynb) |
         | 6 | <time datetime="2026-10-28T13:00">Wed 28 Oct, 13:00</time> | PER 5403 | Pure exploration and learning from preferences | [pdf](/teaching/sequential-decision/lecture06.pdf) | [pdf](/teaching/sequential-decision/lecture06-handout.pdf) | [pdf](/teaching/sequential-decision/tutorial06.pdf) | [ipynb](/teaching/sequential-decision/lab06.ipynb) · [Colab](/teaching/sequential-decision/lab06-colab.ipynb) |
         | 7 | <time datetime="2026-10-29T09:00">Thu 29 Oct, 9:00</time> | PER 5309 | Markov decision processes and Q-learning; presentation of the [projects](#projects) | [pdf](/teaching/sequential-decision/lecture07.pdf) | [pdf](/teaching/sequential-decision/lecture07-handout.pdf) | [pdf](/teaching/sequential-decision/tutorial07.pdf) | [ipynb](/teaching/sequential-decision/lab07.ipynb) · [Colab](/teaching/sequential-decision/lab07-colab.ipynb) |
-        | 8 | <time datetime="2026-11-25T13:00">Wed 25 Nov, 13:00</time> | PER 5403 | Approximate Q-learning and policy gradient |  |  | [pdf](/teaching/sequential-decision/tutorial08.pdf) | [ipynb](/teaching/sequential-decision/lab08.ipynb) · [Colab](/teaching/sequential-decision/lab08-colab.ipynb); PyTorch bonus: [ipynb](/teaching/sequential-decision/lab08-torch.ipynb) · [Colab](/teaching/sequential-decision/lab08-torch-colab.ipynb) |
+        | 8 | <time datetime="2026-11-25T13:00">Wed 25 Nov, 13:00</time> | PER 5403 | Approximate Q-learning and policy gradient | [pdf](/teaching/sequential-decision/lecture08.pdf) | [pdf](/teaching/sequential-decision/lecture08-handout.pdf) | [pdf](/teaching/sequential-decision/tutorial08.pdf) | [ipynb](/teaching/sequential-decision/lab08.ipynb) · [Colab](/teaching/sequential-decision/lab08-colab.ipynb); PyTorch bonus: [ipynb](/teaching/sequential-decision/lab08-torch.ipynb) · [Colab](/teaching/sequential-decision/lab08-torch-colab.ipynb) |
         | 9 | <time datetime="2026-12-02T13:00">Wed 2 Dec, 13:00</time> | PER 5403 | Preferences and RLHF |  |  |  |  |
         | 10 | <time datetime="2026-12-09T13:00">Wed 9 Dec, 13:00</time> | PER 5403 | Project defenses |  |  |  |  |
 
